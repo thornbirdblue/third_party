@@ -1,0 +1,50 @@
+org.jraf.android.backport.switchwidget
+attr disableDependentsState
+attr summaryOff
+attr summaryOn
+attr switchMinWidth
+attr switchPadding
+attr switchPreferenceStyle
+attr switchStyle
+attr switchTextAppearance
+attr switchTextOff
+attr switchTextOn
+attr textOff
+attr textOn
+attr thumb
+attr thumbTextPadding
+attr track
+dimen preference_icon_minWidth
+dimen preference_item_padding_inner
+dimen preference_item_padding_side
+dimen preference_widget_width
+drawable switch_bg_disabled_holo_dark
+drawable switch_bg_disabled_holo_light
+drawable switch_bg_focused_holo_dark
+drawable switch_bg_focused_holo_light
+drawable switch_bg_holo_dark
+drawable switch_bg_holo_light
+drawable switch_inner_holo_dark
+drawable switch_inner_holo_light
+drawable switch_thumb_activated_holo_dark
+drawable switch_thumb_activated_holo_light
+drawable switch_thumb_disabled_holo_dark
+drawable switch_thumb_disabled_holo_light
+drawable switch_thumb_holo_dark
+drawable switch_thumb_holo_light
+drawable switch_thumb_pressed_holo_dark
+drawable switch_thumb_pressed_holo_light
+drawable switch_track_holo_dark
+drawable switch_track_holo_light
+id switchWidget
+layout preference
+layout preference_widget_switch
+string switch_off
+string switch_on
+style Preference_SwitchPreference
+style Widget_Holo_CompoundButton_Switch
+style Widget_Holo_Light_CompoundButton_Switch
+styleable Android android_textColor android_textColorHighlight android_textColorHint android_textColorLink android_textSize android_textStyle android_typeface
+styleable Switch switchMinWidth switchPadding switchTextAppearance textOff textOn thumb thumbTextPadding track
+styleable SwitchPreference disableDependentsState summaryOff summaryOn switchTextOff switchTextOn
+styleable Theme switchPreferenceStyle switchStyle

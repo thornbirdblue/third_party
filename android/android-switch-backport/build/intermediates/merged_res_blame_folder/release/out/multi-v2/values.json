@@ -1,0 +1,158 @@
+{
+    "logs": [
+        {
+            "outputFile": "/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/values/strings.xml",
+                    "from": {
+                        "startLines": "28,27",
+                        "startColumns": "4,4",
+                        "startOffsets": "1034,993",
+                        "endColumns": "42,40",
+                        "endOffsets": "1072,1029"
+                    },
+                    "to": {
+                        "startLines": "6,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "286,329",
+                        "endColumns": "42,40",
+                        "endOffsets": "324,365"
+                    }
+                },
+                {
+                    "source": "/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/values/styles.xml",
+                    "from": {
+                        "startLines": "49,27,38",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "2163,993,1574",
+                        "endLines": "54,36,47",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "2492,1568,2157"
+                    },
+                    "to": {
+                        "startLines": "8,14,24",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "370,704,1284",
+                        "endLines": "13,23,33",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "699,1279,1867"
+                    }
+                },
+                {
+                    "source": "/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/values/dimens.xml",
+                    "from": {
+                        "startLines": "29,28,27,30",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "1114,1053,993,1169",
+                        "endColumns": "54,60,59,54",
+                        "endOffsets": "1164,1109,1048,1219"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,110,171,231",
+                        "endColumns": "54,60,59,54",
+                        "endOffsets": "105,166,226,281"
+                    }
+                },
+                {
+                    "source": "/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/values/attrs.xml",
+                    "from": {
+                        "startLines": "80,57,27,76",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "3737,2453,994,3555",
+                        "endLines": "96,75,56,79",
+                        "endColumns": "24,24,24,24",
+                        "endOffsets": "4520,3550,2448,3732"
+                    },
+                    "to": {
+                        "startLines": "34,51,70,100",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "1872,2653,3747,5201",
+                        "endLines": "50,69,99,103",
+                        "endColumns": "24,24,24,24",
+                        "endOffsets": "2648,3742,5196,5376"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/build/intermediates/res/merged/release/values/values.xml",
+            "map": [
+                {
+                    "source": "/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/values/strings.xml",
+                    "from": {
+                        "startLines": "28,27",
+                        "startColumns": "4,4",
+                        "startOffsets": "1034,993",
+                        "endColumns": "42,40",
+                        "endOffsets": "1072,1029"
+                    },
+                    "to": {
+                        "startLines": "6,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "286,329",
+                        "endColumns": "42,40",
+                        "endOffsets": "324,365"
+                    }
+                },
+                {
+                    "source": "/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/values/styles.xml",
+                    "from": {
+                        "startLines": "49,27,38",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "2163,993,1574",
+                        "endLines": "54,36,47",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "2492,1568,2157"
+                    },
+                    "to": {
+                        "startLines": "8,14,24",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "370,704,1284",
+                        "endLines": "13,23,33",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "699,1279,1867"
+                    }
+                },
+                {
+                    "source": "/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/values/dimens.xml",
+                    "from": {
+                        "startLines": "29,28,27,30",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "1114,1053,993,1169",
+                        "endColumns": "54,60,59,54",
+                        "endOffsets": "1164,1109,1048,1219"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,110,171,231",
+                        "endColumns": "54,60,59,54",
+                        "endOffsets": "105,166,226,281"
+                    }
+                },
+                {
+                    "source": "/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/values/attrs.xml",
+                    "from": {
+                        "startLines": "80,57,27,76",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "3737,2453,994,3555",
+                        "endLines": "96,75,56,79",
+                        "endColumns": "24,24,24,24",
+                        "endOffsets": "4520,3550,2448,3732"
+                    },
+                    "to": {
+                        "startLines": "34,51,70,100",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "1872,2653,3747,5201",
+                        "endLines": "50,69,99,103",
+                        "endColumns": "24,24,24,24",
+                        "endOffsets": "2648,3742,5196,5376"
+                    }
+                }
+            ]
+        }
+    ]
+}

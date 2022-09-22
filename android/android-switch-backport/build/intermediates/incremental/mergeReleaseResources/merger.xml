@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res"/><source path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/build/generated/res/rs/release"/><source path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/build/generated/res/resValues/release"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res"><file path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/values-large/dimens.xml" qualifiers="large-v4"><dimen name="preference_widget_width">56dp</dimen></file><file name="switch_inner_holo_dark" path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/drawable/switch_inner_holo_dark.xml" qualifiers="" type="drawable"/><file name="switch_inner_holo_light" path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/drawable/switch_inner_holo_light.xml" qualifiers="" type="drawable"/><file name="switch_track_holo_light" path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/drawable/switch_track_holo_light.xml" qualifiers="" type="drawable"/><file name="switch_track_holo_dark" path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/drawable/switch_track_holo_dark.xml" qualifiers="" type="drawable"/><file path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/values-land/dimens.xml" qualifiers="land"><dimen name="preference_widget_width">72dp</dimen></file><file name="switch_bg_disabled_holo_light" path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/drawable-xhdpi/switch_bg_disabled_holo_light.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="switch_thumb_pressed_holo_dark" path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/drawable-xhdpi/switch_thumb_pressed_holo_dark.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="switch_thumb_holo_dark" path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/drawable-xhdpi/switch_thumb_holo_dark.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="switch_thumb_disabled_holo_dark" path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/drawable-xhdpi/switch_thumb_disabled_holo_dark.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="switch_thumb_activated_holo_light" path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/drawable-xhdpi/switch_thumb_activated_holo_light.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="switch_bg_holo_dark" path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/drawable-xhdpi/switch_bg_holo_dark.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="switch_bg_focused_holo_light" path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/drawable-xhdpi/switch_bg_focused_holo_light.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="switch_thumb_holo_light" path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/drawable-xhdpi/switch_thumb_holo_light.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="switch_thumb_pressed_holo_light" path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/drawable-xhdpi/switch_thumb_pressed_holo_light.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="switch_bg_holo_light" path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/drawable-xhdpi/switch_bg_holo_light.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="switch_thumb_activated_holo_dark" path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/drawable-xhdpi/switch_thumb_activated_holo_dark.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="switch_bg_focused_holo_dark" path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/drawable-xhdpi/switch_bg_focused_holo_dark.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="switch_thumb_disabled_holo_light" path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/drawable-xhdpi/switch_thumb_disabled_holo_light.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="switch_bg_disabled_holo_dark" path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/drawable-xhdpi/switch_bg_disabled_holo_dark.9.png" qualifiers="xhdpi-v4" type="drawable"/><file path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/values-sw720dp/dimens.xml" qualifiers="sw720dp-v13"><dimen name="preference_icon_minWidth">56dp</dimen></file><file name="preference_widget_switch" path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/layout/preference_widget_switch.xml" qualifiers="" type="layout"/><file name="preference" path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/layout/preference.xml" qualifiers="" type="layout"/><file name="switch_bg_disabled_holo_light" path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/drawable-mdpi/switch_bg_disabled_holo_light.9.png" qualifiers="mdpi-v4" type="drawable"/><file name="switch_thumb_pressed_holo_dark" path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/drawable-mdpi/switch_thumb_pressed_holo_dark.9.png" qualifiers="mdpi-v4" type="drawable"/><file name="switch_thumb_holo_dark" path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/drawable-mdpi/switch_thumb_holo_dark.9.png" qualifiers="mdpi-v4" type="drawable"/><file name="switch_thumb_disabled_holo_dark" path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/drawable-mdpi/switch_thumb_disabled_holo_dark.9.png" qualifiers="mdpi-v4" type="drawable"/><file name="switch_thumb_activated_holo_light" path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/drawable-mdpi/switch_thumb_activated_holo_light.9.png" qualifiers="mdpi-v4" type="drawable"/><file name="switch_bg_holo_dark" path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/drawable-mdpi/switch_bg_holo_dark.9.png" qualifiers="mdpi-v4" type="drawable"/><file name="switch_bg_focused_holo_light" path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/drawable-mdpi/switch_bg_focused_holo_light.9.png" qualifiers="mdpi-v4" type="drawable"/><file name="switch_thumb_holo_light" path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/drawable-mdpi/switch_thumb_holo_light.9.png" qualifiers="mdpi-v4" type="drawable"/><file name="switch_thumb_pressed_holo_light" path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/drawable-mdpi/switch_thumb_pressed_holo_light.9.png" qualifiers="mdpi-v4" type="drawable"/><file name="switch_bg_holo_light" path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/drawable-mdpi/switch_bg_holo_light.9.png" qualifiers="mdpi-v4" type="drawable"/><file name="switch_thumb_activated_holo_dark" path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/drawable-mdpi/switch_thumb_activated_holo_dark.9.png" qualifiers="mdpi-v4" type="drawable"/><file name="switch_bg_focused_holo_dark" path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/drawable-mdpi/switch_bg_focused_holo_dark.9.png" qualifiers="mdpi-v4" type="drawable"/><file name="switch_thumb_disabled_holo_light" path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/drawable-mdpi/switch_thumb_disabled_holo_light.9.png" qualifiers="mdpi-v4" type="drawable"/><file name="switch_bg_disabled_holo_dark" path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/drawable-mdpi/switch_bg_disabled_holo_dark.9.png" qualifiers="mdpi-v4" type="drawable"/><file path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/values-sw720dp-w1280dp/dimens.xml" qualifiers="sw720dp-w1280dp-v13"><dimen name="preference_widget_width">64dp</dimen></file><file path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/values/styles.xml" qualifiers=""><style name="Widget.Holo.CompoundButton.Switch" parent="android:Widget.CompoundButton">
+        <item name="track">@drawable/switch_track_holo_dark</item>
+        <item name="thumb">@drawable/switch_inner_holo_dark</item>
+        <item name="switchTextAppearance">@android:style/TextAppearance.Small</item>
+        <item name="textOn">@string/switch_on</item>
+        <item name="textOff">@string/switch_off</item>
+        <item name="thumbTextPadding">12dip</item>
+        <item name="switchMinWidth">96dip</item>
+        <item name="switchPadding">16dip</item>
+    </style><style name="Widget.Holo.Light.CompoundButton.Switch" parent="android:Widget.CompoundButton">
+        <item name="track">@drawable/switch_track_holo_light</item>
+        <item name="thumb">@drawable/switch_inner_holo_light</item>
+        <item name="switchTextAppearance">@android:style/TextAppearance.Small</item>
+        <item name="textOn">@string/switch_on</item>
+        <item name="textOff">@string/switch_off</item>
+        <item name="thumbTextPadding">12dip</item>
+        <item name="switchMinWidth">96dip</item>
+        <item name="switchPadding">16dip</item>
+    </style><style name="Preference.SwitchPreference" parent="">
+        <item name="android:layout">@layout/preference</item>
+        <item name="android:widgetLayout">@layout/preference_widget_switch</item>
+        <item name="switchTextOn">@string/switch_on</item>
+        <item name="switchTextOff">@string/switch_off</item>
+    </style></file><file path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/values/strings.xml" qualifiers=""><string name="switch_on">ON</string><string name="switch_off">OFF</string></file><file path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/values/dimens.xml" qualifiers=""><dimen name="preference_item_padding_side">8dip</dimen><dimen name="preference_item_padding_inner">8dip</dimen><dimen name="preference_icon_minWidth">0dp</dimen><dimen name="preference_widget_width">48dp</dimen></file><file path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/values/attrs.xml" qualifiers=""><declare-styleable name="SwitchPreference">
+
+        
+        <attr format="reference" name="summaryOn"/>
+        
+        <attr format="reference" name="summaryOff"/>
+        
+        <attr format="reference" name="switchTextOn"/>
+        
+        <attr format="reference" name="switchTextOff"/>
+        
+        <attr format="boolean" name="disableDependentsState"/>
+    </declare-styleable><declare-styleable name="Switch">
+
+        
+        <attr format="reference" name="thumb"/>
+        
+        <attr format="reference" name="track"/>
+        
+        <attr format="reference" name="textOn"/>
+        
+        <attr format="reference" name="textOff"/>
+        
+        <attr format="dimension" name="thumbTextPadding"/>
+        
+        <attr format="reference" name="switchTextAppearance"/>
+        
+        <attr format="dimension" name="switchMinWidth"/>
+        
+        <attr format="dimension" name="switchPadding"/>
+    </declare-styleable><declare-styleable name="Theme">
+        <attr format="reference" name="switchStyle"/>
+        <attr format="reference" name="switchPreferenceStyle"/>
+    </declare-styleable><declare-styleable name="Android">
+
+        
+        <attr name="android:textColor"/>
+        
+        <attr name="android:textSize"/>
+        
+        <attr name="android:textStyle"/>
+        
+        <attr name="android:typeface"/>
+        
+        <attr name="android:textColorHighlight"/>
+        
+        <attr name="android:textColorHint"/>
+        
+        <attr name="android:textColorLink"/>
+    </declare-styleable></file><file name="switch_bg_disabled_holo_light" path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/drawable-hdpi/switch_bg_disabled_holo_light.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="switch_thumb_pressed_holo_dark" path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/drawable-hdpi/switch_thumb_pressed_holo_dark.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="switch_thumb_holo_dark" path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/drawable-hdpi/switch_thumb_holo_dark.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="switch_thumb_disabled_holo_dark" path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/drawable-hdpi/switch_thumb_disabled_holo_dark.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="switch_thumb_activated_holo_light" path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/drawable-hdpi/switch_thumb_activated_holo_light.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="switch_bg_holo_dark" path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/drawable-hdpi/switch_bg_holo_dark.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="switch_bg_focused_holo_light" path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/drawable-hdpi/switch_bg_focused_holo_light.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="switch_thumb_holo_light" path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/drawable-hdpi/switch_thumb_holo_light.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="switch_thumb_pressed_holo_light" path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/drawable-hdpi/switch_thumb_pressed_holo_light.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="switch_bg_holo_light" path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/drawable-hdpi/switch_bg_holo_light.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="switch_thumb_activated_holo_dark" path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/drawable-hdpi/switch_thumb_activated_holo_dark.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="switch_bg_focused_holo_dark" path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/drawable-hdpi/switch_bg_focused_holo_dark.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="switch_thumb_disabled_holo_light" path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/drawable-hdpi/switch_thumb_disabled_holo_light.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="switch_bg_disabled_holo_dark" path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/drawable-hdpi/switch_bg_disabled_holo_dark.9.png" qualifiers="hdpi-v4" type="drawable"/></source><source path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/build/generated/res/rs/release"/><source path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/build/generated/res/resValues/release"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="release$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/src/release/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="release" generated-set="release$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/src/release/res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="Switch">
+
+        
+        <attr format="reference" name="thumb"/>
+        
+        <attr format="reference" name="track"/>
+        
+        <attr format="reference" name="textOn"/>
+        
+        <attr format="reference" name="textOff"/>
+        
+        <attr format="dimension" name="thumbTextPadding"/>
+        
+        <attr format="reference" name="switchTextAppearance"/>
+        
+        <attr format="dimension" name="switchMinWidth"/>
+        
+        <attr format="dimension" name="switchPadding"/>
+    </declare-styleable><declare-styleable name="SwitchPreference">
+
+        
+        <attr format="reference" name="summaryOn"/>
+        
+        <attr format="reference" name="summaryOff"/>
+        
+        <attr format="reference" name="switchTextOn"/>
+        
+        <attr format="reference" name="switchTextOff"/>
+        
+        <attr format="boolean" name="disableDependentsState"/>
+    </declare-styleable><declare-styleable name="Theme">
+        <attr format="reference" name="switchStyle"/>
+        <attr format="reference" name="switchPreferenceStyle"/>
+    </declare-styleable><declare-styleable name="Android">
+
+        
+        <attr name="android:textColor"/>
+        
+        <attr name="android:textSize"/>
+        
+        <attr name="android:textStyle"/>
+        
+        <attr name="android:typeface"/>
+        
+        <attr name="android:textColorHighlight"/>
+        
+        <attr name="android:textColorHint"/>
+        
+        <attr name="android:textColorLink"/>
+    </declare-styleable></configuration></mergedItems></merger>

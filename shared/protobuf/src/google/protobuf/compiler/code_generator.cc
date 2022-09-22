@@ -1,6 +1,6 @@
 // Protocol Buffers - Google's data interchange format
 // Copyright 2008 Google Inc.  All rights reserved.
-// http://code.google.com/p/protobuf/
+// https://developers.google.com/protocol-buffers/
 //
 // Redistribution and use in source and binary forms, with or without
 // modification, are permitted provided that the following conditions are
@@ -34,7 +34,9 @@
 
 #include <google/protobuf/compiler/code_generator.h>
 
+#include <google/protobuf/stubs/logging.h>
 #include <google/protobuf/stubs/common.h>
+#include <google/protobuf/descriptor.h>
 #include <google/protobuf/stubs/strutil.h>
 
 namespace google {
@@ -42,7 +44,39 @@ namespace protobuf {
 namespace compiler {
 
 CodeGenerator::~CodeGenerator() {}
+
+bool CodeGenerator::GenerateAll(
+    const vector<const FileDescriptor*>& files,
+    const string& parameter,
+    GeneratorContext* generator_context,
+    string* error) const {
+  // Default implemenation is just to call the per file method, and prefix any
+  // error string with the file to provide context.
+  bool succeeded = true;
+  for (int i = 0; i < files.size(); i++) {
+    const FileDescriptor* file = files[i];
+    succeeded = Generate(file, parameter, generator_context, error);
+    if (!succeeded && error && error->empty()) {
+      *error = "Code generator returned false but provided no error "
+               "description.";
+    }
+    if (error && !error->empty()) {
+      *error = file->name() + ": " + *error;
+      break;
+    }
+    if (!succeeded) {
+      break;
+    }
+  }
+  return succeeded;
+}
+
 GeneratorContext::~GeneratorContext() {}
+
+io::ZeroCopyOutputStream*
+GeneratorContext::OpenForAppend(const string& filename) {
+  return NULL;
+}
 
 io::ZeroCopyOutputStream* GeneratorContext::OpenForInsert(
     const string& filename, const string& insertion_point) {
@@ -58,8 +92,7 @@ void GeneratorContext::ListParsedFiles(
 // Parses a set of comma-delimited name/value pairs.
 void ParseGeneratorParameter(const string& text,
                              vector<pair<string, string> >* output) {
-  vector<string> parts;
-  SplitStringUsing(text, ",", &parts);
+  vector<string> parts = Split(text, ",", true);
 
   for (int i = 0; i < parts.size(); i++) {
     string::size_type equals_pos = parts[i].find_first_of('=');

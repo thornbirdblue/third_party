@@ -1,0 +1,12 @@
+org/jraf/android/backport/switchwidget/TwoStatePreference.java
+ org.jraf.android.backport.switchwidget.TwoStatePreference
+ org.jraf.android.backport.switchwidget.TwoStatePreference$SavedState
+ org.jraf.android.backport.switchwidget.TwoStatePreference$SavedState$1
+org/jraf/android/backport/switchwidget/BuildConfig.java
+ org.jraf.android.backport.switchwidget.BuildConfig
+org/jraf/android/backport/switchwidget/Switch.java
+ org.jraf.android.backport.switchwidget.Switch
+org/jraf/android/backport/switchwidget/SwitchPreference.java
+ org.jraf.android.backport.switchwidget.SwitchPreference
+ org.jraf.android.backport.switchwidget.SwitchPreference$1
+ org.jraf.android.backport.switchwidget.SwitchPreference$Listener

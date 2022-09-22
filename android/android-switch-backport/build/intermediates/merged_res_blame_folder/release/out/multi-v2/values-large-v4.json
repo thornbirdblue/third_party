@@ -1,0 +1,48 @@
+{
+    "logs": [
+        {
+            "outputFile": "/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/build/intermediates/res/merged/release/values-large-v4/values-large-v4.xml",
+            "map": [
+                {
+                    "source": "/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/values-large/dimens.xml",
+                    "from": {
+                        "startLines": "27",
+                        "startColumns": "4",
+                        "startOffsets": "993",
+                        "endColumns": "54",
+                        "endOffsets": "1043"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "54",
+                        "endOffsets": "105"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-large-v4/values-large-v4.xml",
+            "map": [
+                {
+                    "source": "/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/values-large/dimens.xml",
+                    "from": {
+                        "startLines": "27",
+                        "startColumns": "4",
+                        "startOffsets": "993",
+                        "endColumns": "54",
+                        "endOffsets": "1043"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "54",
+                        "endOffsets": "105"
+                    }
+                }
+            ]
+        }
+    ]
+}

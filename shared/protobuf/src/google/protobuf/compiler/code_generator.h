@@ -1,6 +1,6 @@
 // Protocol Buffers - Google's data interchange format
 // Copyright 2008 Google Inc.  All rights reserved.
-// http://code.google.com/p/protobuf/
+// https://developers.google.com/protocol-buffers/
 //
 // Redistribution and use in source and binary forms, with or without
 // modification, are permitted provided that the following conditions are
@@ -66,11 +66,11 @@ class LIBPROTOC_EXPORT CodeGenerator {
   // Generates code for the given proto file, generating one or more files in
   // the given output directory.
   //
-  // A parameter to be passed to the generator can be specified on the
-  // command line.  This is intended to be used by Java and similar languages
-  // to specify which specific class from the proto file is to be generated,
-  // though it could have other uses as well.  It is empty if no parameter was
-  // given.
+  // A parameter to be passed to the generator can be specified on the command
+  // line. This is intended to be used to pass generator specific parameters.
+  // It is empty if no parameter was given. ParseGeneratorParameter (below),
+  // can be used to accept multiple parameters within the single parameter
+  // command line flag.
   //
   // Returns true if successful.  Otherwise, sets *error to a description of
   // the problem (e.g. "invalid parameter") and returns false.
@@ -78,6 +78,28 @@ class LIBPROTOC_EXPORT CodeGenerator {
                         const string& parameter,
                         GeneratorContext* generator_context,
                         string* error) const = 0;
+
+  // Generates code for all given proto files.
+  //
+  // WARNING: The canonical code generator design produces one or two output
+  // files per input .proto file, and we do not wish to encourage alternate
+  // designs.
+  //
+  // A parameter is given as passed on the command line, as in |Generate()|
+  // above.
+  //
+  // Returns true if successful.  Otherwise, sets *error to a description of
+  // the problem (e.g. "invalid parameter") and returns false.
+  virtual bool GenerateAll(const vector<const FileDescriptor*>& files,
+                           const string& parameter,
+                           GeneratorContext* generator_context,
+                           string* error) const;
+
+  // This is no longer used, but this class is part of the opensource protobuf
+  // library, so it has to remain to keep vtables the same for the current
+  // version of the library. When protobufs does a api breaking change, the
+  // method can be removed.
+  virtual bool HasGenerateAll() const { return true; }
 
  private:
   GOOGLE_DISALLOW_EVIL_CONSTRUCTORS(CodeGenerator);
@@ -103,6 +125,9 @@ class LIBPROTOC_EXPORT GeneratorContext {
   // "foo/" is included in these filenames.  The filename is not allowed to
   // contain "." or ".." components.
   virtual io::ZeroCopyOutputStream* Open(const string& filename) = 0;
+
+  // Similar to Open() but the output will be appended to the file if exists
+  virtual io::ZeroCopyOutputStream* OpenForAppend(const string& filename);
 
   // Creates a ZeroCopyOutputStream which will insert code into the given file
   // at the given insertion point.  See plugin.proto (plugin.pb.h) for more

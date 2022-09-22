@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/build/intermediates/res/merged/release/layout/preference.xml",
+        "source": "/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/layout/preference.xml"
+    },
+    {
+        "merged": "/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/build/intermediates/res/merged/release/layout/preference_widget_switch.xml",
+        "source": "/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/layout/preference_widget_switch.xml"
+    }
+]

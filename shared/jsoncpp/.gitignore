@@ -1,10 +1,13 @@
+/build/
 *.pyc
 *.swp
-
 *.actual
 *.actual-rewrite
 *.process-output
 *.rewrite
-bin/
-buildscons/
-libs/
+/bin/
+/buildscons/
+/libs/
+/doc/doxyfile
+/dist/
+#/include/json/version.h

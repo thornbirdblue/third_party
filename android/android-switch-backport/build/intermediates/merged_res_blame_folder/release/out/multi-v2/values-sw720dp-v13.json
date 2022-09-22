@@ -1,0 +1,48 @@
+{
+    "logs": [
+        {
+            "outputFile": "/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sw720dp-v13/values-sw720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/values-sw720dp/dimens.xml",
+                    "from": {
+                        "startLines": "27",
+                        "startColumns": "4",
+                        "startOffsets": "993",
+                        "endColumns": "55",
+                        "endOffsets": "1044"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/build/intermediates/res/merged/release/values-sw720dp-v13/values-sw720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/opt/work/github/viewfinder/clients/android/third_party/android-switch-backport/res/values-sw720dp/dimens.xml",
+                    "from": {
+                        "startLines": "27",
+                        "startColumns": "4",
+                        "startOffsets": "993",
+                        "endColumns": "55",
+                        "endOffsets": "1044"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}
